@@ -28,7 +28,7 @@ func setZeroes(matrix [][]int) {
 			}
 		}
 	}
-	//置0
+	//置零
 	for i := 1; i < row; i++ {
 		for j := 1; j < col; j++ {
 			if matrix[0][j] == 0 || matrix[i][0] == 0 {
@@ -78,8 +78,8 @@ func spiralOrder(matrix [][]int) []int {
 		}
 		left++
 		right--
-		bottom--
 		top++
+		bottom--
 	}
 	return order
 }
