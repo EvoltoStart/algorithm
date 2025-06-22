@@ -46,12 +46,12 @@ func reverseList(head *ListNode) *ListNode {
 
 // 234. 回文链表 给你一个单链表的头节点 head ，请你判断该链表是否为回文链表。如果是，返回 true ；否则，返回 false 。
 func fastShowNode(head *ListNode) *ListNode {
-	fast, show := head, head
+	fast, slow := head, head
 	for fast.Next != nil && fast.Next.Next != nil {
+		slow = slow.Next
 		fast = fast.Next.Next
-		show = show.Next
 	}
-	return show
+	return slow
 }
 func isPalindrome(head *ListNode) bool {
 	if head == nil {
@@ -84,15 +84,16 @@ func hasCycle(head *ListNode) bool {
 	if head == nil || head.Next == nil {
 		return false
 	}
-	slow, fast := head, head
+	fast, slow := head, head
 	for fast.Next != nil && fast.Next.Next != nil {
 		slow = slow.Next
 		fast = fast.Next.Next
-		if slow == fast {
+		if fast == slow {
 			return true
 		}
 	}
 	return false
+
 }
 func main() {
 	fmt.Println(reverseList(nil))
