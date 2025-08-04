@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"slices"
 )
 
 // 合并两个有序数组
@@ -110,6 +109,8 @@ func set(person Person) {
 
 }
 
+// 最长连续序列
+//
 //	func longestConsecutive(nums []int) int {
 //		numSet := map[int]bool{}
 //		for _, num := range nums {
@@ -133,38 +134,54 @@ func set(person Person) {
 //		return longest
 //	}
 //
-// 最长连续序列
+//	func longestConsecutive(nums []int) int {
+//		slices.Sort(nums)
+//		if len(nums) == 0 {
+//			return 0
+//		}
+//		pre := nums[0]
+//		currentLen := 1
+//		result := 1
+//		if len(nums) == 0 {
+//			return 0
+//		}
+//		for i := 1; i < len(nums); i++ {
+//			if pre == nums[i] {
+//				continue
+//			}
+//			if nums[i] == pre+1 {
+//				currentLen++
+//			} else {
+//				if currentLen > result {
+//					result = currentLen
+//				}
+//				currentLen = 1
+//			}
+//			pre = nums[i]
+//		}
+//		if result < currentLen {
+//			result = currentLen
+//		}
+//		return result
+//	}
 func longestConsecutive(nums []int) int {
-	slices.Sort(nums)
-	if len(nums) == 0 {
-		return 0
+	ans := 0
+	has := make(map[int]bool)
+	for _, num := range nums {
+		has[num] = true
 	}
-	pre := nums[0]
-	currentLen := 1
-	result := 1
-	if len(nums) == 0 {
-		return 0
-	}
-	for i := 1; i < len(nums); i++ {
-		if pre == nums[i] {
+	for x := range has {
+		if has[x-1] {
 			continue
 		}
-		if nums[i] == pre+1 {
-			currentLen++
-		} else {
-			if currentLen > result {
-				result = currentLen
-			}
-			currentLen = 1
+		y := x + 1
+		for has[y] {
+			y++
 		}
-		pre = nums[i]
+		ans = max(ans, y-x)
 	}
-	if result < currentLen {
-		result = currentLen
-	}
-	return result
+	return ans
 }
-
 func main() {
 	nums1 := []int{5, 6, 0, 0, 0}
 	nums2 := []int{2, 5, 6}
