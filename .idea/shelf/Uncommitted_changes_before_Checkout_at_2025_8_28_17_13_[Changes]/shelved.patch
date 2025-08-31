@@ -1,0 +1,17 @@
+Index: xxx/xx.go
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package xxx\r\n\r\nimport \"fmt\"\r\n\r\nfunc main() {\r\n\tfmt.Println(\"xxx\")\r\n\tfmt.Println(\"<UNK>\")\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/xxx/xx.go b/xxx/xx.go
+--- a/xxx/xx.go	(revision 3ae4d28959e4f6627a19f079f58ee7fcafcd1487)
++++ b/xxx/xx.go	(date 1756372364233)
+@@ -4,5 +4,5 @@
+ 
+ func main() {
+ 	fmt.Println("xxx")
+-	fmt.Println("<UNK>")
++	fmt.Println("<<>>>")
+ }

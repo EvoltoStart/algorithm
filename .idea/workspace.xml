@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e64d1ba7-02d0-4b5e-a15e-c86730409f0a" name="Changes" comment="xx" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../GO" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="fix" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EvoltoStart&quot;
+  }
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOO-WGL86mG94e&quot;,
+        &quot;number&quot;: 6
+      },
+      &quot;lastSeen&quot;: 1756568023469
+    }
+  ]
+}</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="36e8e2f0e90c384e443324c9731cdd889db0ce20" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EvoltoStart/algorithm.git&quot;,
+    &quot;accountId&quot;: &quot;a2698383-3f91-4ec8-b9d7-6d7f16f1bac8&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;EvoltoStart&quot;,
+    &quot;repository&quot;: &quot;algorithm&quot;
+  }
+}</component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/.." />
+      </list>
+    </option>
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2yGGlUjzip69TXpNsYXIyweyGrB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build LinkList.go.executor": "Run",
+    "Go Build.go build algorithm/FastSlowPointer.executor": "Run",
+    "Go Build.go build algorithm/Ordinaryarrays.executor": "Debug",
+    "Go Build.go build algorithm/SlideWindow.executor": "Debug",
+    "Go Build.go build algorithm/array.executor": "Run",
+    "Go Build.go build algorithm/数组.executor": "Run",
+    "Go Build.go build array.go.executor": "Debug",
+    "Go Build.go build main.go.executor": "Debug",
+    "Go Build.go build point.go.executor": "Run",
+    "Go Build.go build slidewindow.go.executor": "Debug",
+    "Go Build.go build substrings.go.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.GoLinterPluginOnboarding": "true",
+    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "configurable..is.expanded": "true",
+    "git-widget-placeholder": "xxx",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "C:/Users/EvoltoStar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Code/GolandProjects/algorithm/main.go",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="GoApplicationRunConfiguration" />
+      </set>
+    </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="GoApplicationRunConfiguration">
+          <value>
+            <set>
+              <option value="go build LinkList.go" />
+              <option value="go build algorithm/Ordinaryarrays" />
+              <option value="go build array.go" />
+              <option value="go build slidewindow.go" />
+              <option value="go build substrings.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build LinkList.go">
+    <configuration name="go build LinkList.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="algorithm" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/LinkdList/LinkList.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build algorithm/Ordinaryarrays" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="algorithm/Ordinaryarrays" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Ordinaryarrays/array.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build array.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="algorithm" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Ordinaryarrays/array.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build slidewindow.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="algorithm" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/SlideWindow/slidewindow.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build substrings.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="algorithm" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Substrings/substrings.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build substrings.go" />
+        <item itemvalue="Go Build.go build slidewindow.go" />
+        <item itemvalue="Go Build.go build LinkList.go" />
+        <item itemvalue="Go Build.go build array.go" />
+        <item itemvalue="Go Build.go build algorithm/Ordinaryarrays" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-3b128438d3f6-34ac7aa8f6ab-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-251.23774.430" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-GO-251.23774.430" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e64d1ba7-02d0-4b5e-a15e-c86730409f0a" name="Changes" comment="" />
+      <created>1749453647615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749453647615</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="矩阵+链表" />
+    <MESSAGE value="新增142，21，2，19" />
+    <MESSAGE value="新增不同解法" />
+    <MESSAGE value="新增子串类型不同解法" />
+    <MESSAGE value="测试" />
+    <MESSAGE value="add" />
+    <MESSAGE value="&lt;&gt;&lt;&gt;" />
+    <MESSAGE value="&lt;&lt;&gt;&gt;" />
+    <MESSAGE value="&lt;&gt;" />
+    <MESSAGE value="//" />
+    <MESSAGE value="." />
+    <MESSAGE value="&lt;&gt;&lt;" />
+    <MESSAGE value="回溯1" />
+    <MESSAGE value="//。" />
+    <MESSAGE value="回溯2" />
+    <MESSAGE value="l" />
+    <MESSAGE value="ll" />
+    <MESSAGE value="回溯" />
+    <MESSAGE value="回溯3" />
+    <MESSAGE value="xx" />
+    <option name="LAST_COMMIT_MESSAGE" value="xx" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/SlideWindow/slidewindow.go</url>
+          <line>92</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Substrings/substrings.go</url>
+          <line>108</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Ordinaryarrays/array.go</url>
+          <line>85</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithm$go_build_main_go.out" NAME="go build main.go Coverage Results" MODIFIED="1749465610044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
