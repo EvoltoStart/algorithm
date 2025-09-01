@@ -140,5 +140,3 @@ func generateParenthesis(n int) (ans []string) {
 	return
 }
 
-//
-//
