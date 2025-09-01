@@ -1,0 +1,18 @@
+Index: xxx/xx.go
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package xxx\r\n\r\nimport \"fmt\"\r\n\r\nfunc main() {\r\n\tfmt.Println(\"xxx\")\r\n\tfmt.Println(\"<>\")\r\n\r\n\r\n\tfmt.Println(\"<>\")\r\n\r\n}\r\n\r\nfunc subsets(nums []int) [][]int {\r\n\tans := make([][]int, 1<<len(nums))\r\n\tfor i := range ans { // 枚举全集 U 的所有子集 i，i就是一个子集\r\n\t\tfor j, x := range nums {\r\n\t\t\tif i>>j&1 == 1 { // j 在集合 i 中，j是一个元素\r\n\t\t\t\tans[i] = append(ans[i], x)\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\treturn ans\r\n}\r\n\r\nfunc permute(nums []int) (ans [][]int) {\r\n\tn := len(nums)\r\n\tpath := make([]int, n)\r\n\tonPath := make([]bool, n)\r\n\tvar dfs func(int)\r\n\tdfs = func(i int) {\r\n\t\tif i == n {\r\n\t\t\tans = append(ans, append([]int(nil), path...))\r\n\t\t\treturn\r\n\t\t}\r\n\t\tfor j, on := range onPath {\r\n\t\t\tif !on {\r\n\t\t\t\tpath[i] = nums[j]\r\n\t\t\t\tonPath[j] = true //访问后\r\n\t\t\t\tdfs(i + 1)\r\n\t\t\t\tonPath[j] = false //恢复未访问的状态\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\tdfs(0)\r\n\treturn\r\n}\r\n\r\nvar mapping = [...]string{\"\", \"\", \"abc\", \"def\", \"ghi\", \"jkl\", \"mno\", \"pqrs\", \"tuv\", \"wxyz\"}\r\n\r\nfunc letterCombinations(digits string) (ans []string) {\r\n\tn := len(digits)\r\n\tif n == 0 {\r\n\t\treturn\r\n\t}\r\n\r\n\tpath := make([]byte, n) // 注意 path 长度一开始就是 n，不是空列表\r\n\r\n\tvar dfs func(int)\r\n\tdfs = func(i int) {\r\n\t\tif i == n {\r\n\t\t\tans = append(ans, string(path))\r\n\t\t\treturn\r\n\t\t}\r\n\t\tfor _, c := range mapping[digits[i]-'0'] {\r\n\t\t\tpath[i] = byte(c) // 直接覆盖\r\n\t\t\tdfs(i + 1)\r\n\t\t}\r\n\t}\r\n\r\n\tdfs(0)\r\n\treturn\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/xxx/xx.go b/xxx/xx.go
+--- a/xxx/xx.go	(revision 7e981c31413eaa7b6110e8d596c65376c39d5c7d)
++++ b/xxx/xx.go	(date 1756651148041)
+@@ -6,7 +6,6 @@
+ 	fmt.Println("xxx")
+ 	fmt.Println("<>")
+ 
+-
+ 	fmt.Println("<>")
+ 
+ }
