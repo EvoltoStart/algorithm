@@ -101,3 +101,41 @@ func longestPalindrome(s string) string {
 
 	return s[ansLeft:ansRight]
 }
+
+// 1143. 最长公共子序列
+func longestCommonSubsequence(text1 string, text2 string) int {
+	n := len(text2)
+	f := make([]int, n+1)
+	for _, x := range text1 {
+		pre := 0
+		for j, y := range text2 {
+			if x == y {
+				f[j+1], pre = pre+1, f[j+1]
+			} else {
+				f[j+1], pre = max(f[j+1], f[j]), f[j+1]
+			}
+		}
+	}
+	return f[n]
+}
+
+// 72. 编辑距离
+func minDistance(word1 string, word2 string) int {
+	n := len(word2)
+	f := make([]int, n+1)
+	for j := range n {
+		f[j+1] = j + 1
+	}
+	for _, x := range word1 {
+		pre := f[0]
+		f[0]++
+		for j, y := range word2 {
+			if x == y {
+				f[j+1], pre = pre, f[j+1]
+			} else {
+				f[j+1], pre = min(f[j+1], f[j], pre)+1, f[j+1]
+			}
+		}
+	}
+	return f[n]
+}
